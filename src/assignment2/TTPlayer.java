@@ -22,8 +22,8 @@ public class TTPlayer implements Player {
 		this.totalPayoff += payoff;
 	}
 	
-	public void updateChoice(int choice) {
-		this.choice = choice;
+	public void updateChoice(int opponentChoice) {
+		this.choice = opponentChoice;
 	}
 	
 	public void resetChoice() {

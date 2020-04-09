@@ -31,5 +31,7 @@ public class GPlayer implements Player {
 	public void resetChoice() {
 		this.choice = 0;
 	}
+	
+	
 
 }
