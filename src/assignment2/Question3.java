@@ -9,6 +9,8 @@ public class Question3 {
 		Simulation.runSimulation(100, 5, 10, 20, popNums).outputData("3a");
 		Simulation.runSimulation(100, 5, 15, 20, popNums).outputData("3b");
 		Simulation.runSimulation(100, 5, 20, 20, popNums).outputData("3c");
+		Simulation.runSimulation(100, 5, 25, 20, popNums).outputData("3d");
+		Simulation.runSimulation(100, 5, 30, 20, popNums).outputData("3e");
 
 	}
 
