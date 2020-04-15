@@ -66,7 +66,7 @@ public class SimulationData {
 				for (int payoff : payoffs[gen]) {
 					System.out.print(payoff + "\t");
 				}
-				for (double avg : payoffs[gen]) {
+				for (double avg : avgPayoffs[gen]) {
 					System.out.print(avg + "\t");
 				}
 				System.out.print(totalPayoff[gen] + "\t\n");
