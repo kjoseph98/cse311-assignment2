@@ -5,18 +5,7 @@ import java.util.*;
 public class Simulation {
 
 	private static int[][][] payoffMatrix = new int[][][] {{{3, 3}, {0, 5}}, {{5, 0}, {1, 1}}};
-
-	public static void main(String[] args) {
-		// Question 1
-		runSimulation(100, 5, 5, 20).outputData(1);
-		
-		// Question 2
-		
-		
-		// Question 3
-		
-		
-	}
+	
 	/**
 	 * 
 	 * @param n
@@ -25,9 +14,8 @@ public class Simulation {
 	 * @param k
 	 * @return
 	 */
-	static SimulationData runSimulation(int n, int m, int p, int k) {
-		SimulationData output = new SimulationData(k);
-		int[] popNums = new int[] {n/4, n/4, n/4, n/4};
+	static SimulationData runSimulation(int n, int m, int p, int k, int[] popNums) {
+		SimulationData output = new SimulationData(n, m, p, k);
 
 		for (int gen = 0; gen < k; gen++) {
 			// Run Simulation
